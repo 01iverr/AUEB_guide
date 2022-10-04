@@ -1,0 +1,501 @@
+<html>
+<head>
+<title>
+Το ΟΠΑ με μια ματιά 
+</title>
+<style>
+	#a{}
+	#b{}
+	#c{}
+	#d{}
+	.drpbtn{
+		background-color: #ff5f15;
+		font-family:"verdana",sans-serif;
+		color:#5e1b1c;
+		padding: 20px;
+		font-size: 18px;
+		border: none;
+}
+.drpbtn2{
+		background-color: #d04c12;
+		font-family:"verdana",sans-serif;
+		color:#5e1b1c;
+		padding: 20px;
+		font-size: 18px;
+		border: none;
+}
+	.drpdown{
+		position: relative;
+		display: inline-block;
+}
+	.drpdown2{
+		position: relative;
+		display: block;
+}
+	.drpdown3{
+		position: relative;
+		display: block;
+}
+	.drpdown4{
+		position: relative;
+		display: block;
+}
+	.drpdown5{
+		position: relative;
+		display: block;
+}	
+	.drpdown8{
+		position: relative;
+		display: block;
+}
+	.drpdown6{
+		position: relative;
+		display: block;
+}	
+	.drpdown7{
+		position: relative;
+		display: block;
+}
+	.drpdown-con{
+		display: none;
+		position: relative;
+		background-color: #d04c12;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 80px;
+		bottom:61px;	
+}
+	.drpdown-con2{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 275px;
+		bottom:-182px;
+}
+	.drpdown-con3{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 325px;
+	}
+	.drpdown-con4{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 275px;
+		top:0px;
+		width:175px;
+	}
+	.drpdown-con5{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 175px;
+	}
+	.drpdown-con6{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 100px;
+		top:0px;
+}
+	.drpdown-con7{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 175px;
+}
+	.drpdown-con8{
+		display: none;
+		position: absolute;
+		background-color: #762223;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		left: 175px;
+		top:0px;
+}
+	.drpdown-con a{
+		color: #d04c12;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+}
+	
+
+
+	.drpdown:hover .drpdown-con{display: block;}
+
+	.drpdown:hover .drpbtn{
+	background-color: #d04c12;
+	left:-50px;
+}
+
+	.drpdown2:hover .drpdown-con2{display: block;}
+
+	.drpdown2:hover .drpbtn{background-color: #d04c12;}
+	
+	.drpdown3:hover .drpdown-con3{
+		display: block;
+		bottom:-320px;
+}
+
+	.drpdown3:hover .drpbtn{background-color: #d04c12;}
+	
+	.drpdown4:hover .drpdown-con4{
+		display: block;
+		bottom:-220px
+}
+
+	.drpdown4:hover .drpbtn{background-color: #d04c12;}
+
+	.drpdown5:hover .drpdown-con5{
+		display: block;
+		bottom:-55px
+}
+
+	.drpdown5:hover .drpbtn{background-color: #d04c12;}	
+	
+	.drpdown6:hover .drpdown-con6{
+		display: block;
+		bottom:-220px
+}
+
+	.drpdown6:hover .drpbtn{background-color: #d04c12;}	
+	
+	.drpdown7:hover .drpdown-con7{
+		display: block;
+		bottom:-5px;
+}
+
+	.drpdown7:hover .drpbtn{background-color: #d04c12;}
+
+	.drpdown8:hover .drpdown-con8{
+		display: block;
+		bottom:-100px
+}
+
+	.drpdown8:hover .drpbtn{background-color: #d04c12;}
+
+</style>
+</head>
+<body>
+<div class="drpdown" style="left:50px;top:50px;position:absolute;">
+	<button class="drpbtn">Menu</button>
+	<div class="drpdown-con">
+		<a href='Χαιρετισμός Πρύτανη.html' style="color:#5e1b1c;font-size:18px;font-family:'verdana',sans-serif;" ><center>Χαιρετισμός Πρύτανη</center></a>
+		<div style="width:80px;left:0px;"  class="drpdown2">
+			<button style="width:275px;" class="drpbtn"><a class="drpbtn2" style="color:#5e1b1c;" href="το οπα με μια ματια .html">Ταυτότητα</a></button>
+					<div class="drpdown-con2">
+						<a href="#a">Το ΟΠΑ  με μια ματιά</a>
+						<a href="#b">Όραμα και Αξίες </a>
+						<a href="#c">Οργανωτική Δομή</a>
+						<a href="#d">Ιστορική Αναδρομή</a>
+					</div>
+		</div>
+		<div class="drpdown3">
+			<button style="width:275px;position:relative;left:0px;" class="drpbtn">Σπουδές</button>
+					<div style="width:200px;left:275px;bottom:-280px;px;"class="drpdown-con3">
+						<a href="Σπουδές.html">Προπτυχιακές Σπουδές</a>
+						<a href="Η Φοίτηση στο ΟΠΑ.html">Η Φοίτηση στο ΟΠΑ</a>
+						<div class="drpdown5">
+							<button style="width:200px;position:relative;left:0px;" class="drpbtn">Σχολή Οικονομικών Επιστημών</button>
+								<div style="left:200px;top:0px;" class="drpdown-con5">
+									<a href="Τμήμα Διεθνών και Ευρωπαϊκών Οικονομικών Σπουδών.html">Τμήμα διεθνών και Ευρωπαϊκών Σπουδών</a>
+									<a href="Τμήμα Οικονομικής επιστήμης.html">Τμήμα Οικονομικής Επιστήμης</a>
+								</div>
+						</div>
+						<div class="drpdown6">
+							<button style="width:200px;position:relative;left:0px;" class="drpbtn">Σχολή Διοίκησης Επιχειρήσεων</button>
+								<div style="left:200px;" class="drpdown-con6">
+									<a href="Τμήμα Διοικητικής Επιστήμης και Τεχνολογίας.html">Τμήμα Διοικητικής Επιστήμης και Τεχνολογίας</a>
+									<a href="Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων.html">Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων</a>
+									<a href="Τμήμα Λογιστικής και Χρηματιοικονομικής.html"> Τμήμα Λογιστικής και Χρηματοοικονομικής</a>
+									<a href="Τμήμα Μάρκετινγκ και Επικοινωνίας.html"> Τμήμα Μάρκετινγκ και Επικοινωνίας</a>
+								</div>
+						</div>
+						<div class="drpdown7">
+							<button style="width:200px;position:relative;left:0px;" class="drpbtn"> Σχολή Επιστημών & Τεχνολογίας της Πληροφορίας</button>
+								<div style="left:200px;bottom:0px;" class="drpdown-con7">
+									<a href="Τμήμα Πληροφορικής.html">Τμήμα Πληροφορικής</a>
+									<a href="Τμήμα Στατιστικής.html"> Τμήμα Στατιστικής</a>
+								</div>
+						</div>
+					</div>
+		</div>
+		<div class="drpdown4">
+			<button style="width:275px;position:relative;left:0px;" class="drpbtn"><a class="drpbtn2" style="color:#5e1b1c;" href="Η ΖΩΗ ΣΤΟ ΟΠΑ.html">Η Ζωή στο ΟΠΑ</a></button>
+					<div class="drpdown-con4">
+						<a href="#a">Τοποθεσία και Εγκαταστάσεις</a>
+						<a href="#b">Βιβλιοθήκη</a>
+						<a href="#c">Κέντρο Διαχείρισης Δικτύων και Κέντρο Ηλεκτρονικών   Υπολογιστών</a>
+						<div class="drpdown8">
+							<button style="width:175px;position:relative;left:0px;" class="drpbtn">Υπηρεσίες προς τον Φοιτητή</button>
+								<div class="drpdown-con8">
+									<a href="#d">Ηλεκτρονική Γραμματεία</a>
+									<a href="#e">Φοιτητική Λέσχη</a>
+									<a href="#f">Σύλλογοι φοιτητών</a>
+								</div>
+						</div>
+					</div>
+		</div>
+		<a href="Οι απόφοιτοι .html" style="color:#5e1b1c;font-size:18px;font-family:'verdana',sans-serif;" ><center>Οι Απόφοιτοι του ΟΠΑ</center></a>
+		<a href="Κατόψεις Κεντρικού Κτηρίου ΟΠΑ.html" style="color:#5e1b1c;font-size:18px;font-family:'verdana',sans-serif;"><center>Κατόψεις Κεντρικού <br> Κτηρίου ΟΠΑ</center></a>
+    </div>
+</div>
+<body bgcolor = "#762223">
+<p align = 'center'> 
+	<img src = "logo_aueb.jpg" alt = "To logo του πανεπιστημίου" style = "width:567px;height:142px;">
+	</p>
+<FONT FACE = " Times New Roman ">
+<FONT SIZE=30>
+
+<font color = "ED682D" > <I> <h1 ALIGN = RIGHT>TAYTOTHTA  </i> </h1>
+</font>
+</font>
+<font color = "ED682D" > <H2 id="a"> ΤΟ ΟΠΑ ΜΕ ΜΙΑ ΜΑΤΙΑ</H2> </font>
+<font size=5>
+<IMG SRC="matia.png" vspace= 50 hspace=50 width =500 Height=600 align=left>
+Το οικονομικό Πανεπιστήμιο Αθηνών (ΟΠΑ) είναι, <br> 
+κατά σειρά αρχαιότητας, το τρίτο Ανώτατο Εκπαιδευτικό Ίδρυμα της χώρας <br>
+και το πρώτο στον χώρο των Οικονομικών Επιστημών <br>
+και της Διοίκησης των Επιχειρήσεων. Στην πορεία προστέθηκαν τα επιστημονικά <br>
+πεδία της Πληροφορικής και της Στατιστικής. Από το έτος ίδρυσης του το 1920 <br>
+εώς και σήμερα παρουσιάζει πλούσια ιστορία σημαντικών επιστημονικών επιτευγμάτων <br>
+που χαρακτηρίζουν το σύγχρονο παρόν και προδιαγράφουν εξαιρετικές προοπτικές για το μέλλον.<br>
+Το ΟΠΑ, ως κέντρο αριστείας στην ακαδημαϊκή έρευνα και στη διδασκαλία, <br>
+αξιολογείται ως ένα από τα κορυφαία πανεπιστήμια της χώρας μας <br>
+και ένα από τα καλύτερα διεθνώς στα γνωστικά αντικείμενα που θεραπεύει. <br>
+Η φήμη του αντανακλά από τη μία πλευρά, το υψηλό επίπεδο του επιστημονικού προσωπικού, <br>
+την ποιότητα του ερευνητικού και διδακτικού  του έργου και τα σύγχρονα προγράμματα σπουδών <br>
+και από την άλλη,την υψηλή επιστημονική κατάρτιση των αποφοίτων του <br>
+που τους επιτρέπει να δραστηριοποιούνται επαγγελματικά με επιτυχία <br>
+τόσο στην Ελλάδα όσο και στο εξωτερικό.Το ΟΠΑ εφαρμόζει διαδικασίες αξιολόγησης<br>
+του διδακτικού έργου και των υπηρεσιών του. Πιο συγκεκριμένα, <br>
+η Μονάδα Διασφάλισης Ποιότητας(ΜΟΔΙΠ) είναι υπεύθυνη για: <br>
+α)τη διασφάλιση και τη συνεχή βελτίωση της ποιότητας του εκπαιδευτικού-ερευνητικού έργου,<br>
+των προγραμμάτων σπουδών αλλά και των υποστηρικτικών υπηρεσιών του Ιδρύματος,<br>
+β) το συντονισμό και την υποστήριξη των διαδικασιών αξιολόγησης σε επίπεδο Τμήματος,<br>
+Σχολής, Ιδρύματος και λοιπών υπηρεσιών του και <br>
+γ) την υποστήριξη των διαδικασιών εξωτερικής αξιολόγησης και πιστοποίησης  <br>
+των προγραμμάτων σπουδών και του εσωτερικού συστήματος διασφάλισης ποιότητας του Ιδρύματος,<br>
+σύμφωνα με το πλαίσιο των αρχών, κατευθύνσεων και οδηγιών της Αρχής Διασφάλισης Ποιότητας (ΑΔΙΠ).<br>
+Οι δράσεις  της ΜΟΔΙΠ έχουν συμβάλει σημαντικά στην ανάπτυξη και εδραίωση κουλτούρας ποιότητας στην ακαδημαϊκή κοινότητα.<BR>
+<BR>
+<BR>
+<BR>
+<BR> <br> <br> <font color = "ED682D" > <H2 id="b">  <B> Όραμα και Αξίες  </B> </H2> <br> <br> </font>
+<IMG SRC="ΟΡΑΜΑ.jpg" vspace= 10 hspace=10 width =500 Height=300 align=right>
+Όραμα του ΟΠΑ είναι να αναγνωρίζεται διεθνώς ως κέντρο αριστείας <BR>
+στις επιστήμες της Οικονομίας, της Διοίκησης και της Πληροφορίας <BR>
+και να συμβάλλει με τη δράση του και την προσφορά  του στις προκλήσεις της επιστήμης,<BR>
+της κοινωνίας και της οικονομίας του σήμερα και του αύριο. <BR>
+Η αποστολή του Πανεπιστημίου είναι η παραγωγή και διάδοση γνώσης  <BR>
+σε τομείς που υπηρετούν την εθνική και την διεθνή οικονομία και κοινωνία, <BR>
+καθώς επίσης και η διάπλαση υπεύθυνων πολιτών ικανών να δημιουργήσουν,<BR>
+να  προσφέρουν, να συμμετέχουν και να ηγούνται στο ευρύτερο διεθνές περιβάλλον.
+<br>Οι ιδρυματικές αξίες του ΟΠΑ Αριστεία, Καινοτομία, 
+Εξωστρέφεια και Κοινωνική Προσφορά <br> αποτελούν πυλώνες ανάπτυξης και σημεία αναφοράς του .
+ <br> <br>
+<font color = "ED682D" > <h4> <center> Βασικά Στοιχεία  </center> </h4> </font>
+<br>
+<table border="1"   background= "OPA.jpg" align= center width= 1000>
+<tr>
+<td><div style="background-color:#B6D8FE;width:50px;"> Σχολές </div></td>
+<td><div style="background-color:#B6D8FE;width:7px;"> 3 </div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:255px;"> Προγράμματα Προπτυχιακών Σπουδών</div></td>
+<td><div style="background-color:#B6D8FE;width:20px;"> 36 </div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:165px;">Προπτυχιακοί Φοιτητές </div></td>
+<td><div style="background-color:#B6D8FE;width:35px;">8840</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:165px;">Μεταπτυχιακοί Φοιτητές</div></td>
+<td><div style="background-color:#B6D8FE;width:35px;">2100</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:150px;">Διδακτορικοί Φοιτητές </div></td>
+<td><div style="background-color:#B6D8FE;width:25px;">310 </div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:75px;">Αλλοδαποί Φοιτητές</div></td>
+<td><div style="background-color:#B6D8FE;width:140px;">260 με Προγράμματα ERASMUS+ </div><br><div style="background-color:#B6D8FE;width:130px;">50 περίπου σε ΠΜΣ</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:185px;">Σπουδαστές Προγραμμάτων Κατάρτισης</div></td>
+<td><div style="background-color:#B6D8FE;width:25px;">350</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:150px;">Διδακτικό Προσωπικό</div></td> 
+<td><div style="background-color:#B6D8FE;width:25px;">240</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:150px;">Διοικητικό Προσωπικό</div></td>
+<td><div style="background-color:#B6D8FE;width:25px;">150</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:310px;">Συνεργασίες με Πανεπιστήμια του Εξωτερικού</div></td>
+<td><div style="background-color:#B6D8FE;width:25px;">230</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:94px;">Αγγλόφωνα Προγράμματα </div></td>
+<td><div style="background-color:#B6D8FE;width:215px;">16 Προγράμματα Μεταπτυχιαών Σπουδών</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:200px;">Αριθμός Δημοσιεύσεων 2013-2016(scopus)</div></td>
+<td><div style="background-color:#B6D8FE;width:25px;">930</div></td>
+<tr>
+<td><div style="background-color:#B6D8FE;width:70px;">Κτηριακές Υποδομές</div></td>
+<td><div style="background-color:#B6D8FE;width:80px;">40000 τετρ. μέτρα</div></td>
+</tr>
+</table>
+<br> <br> <br>
+<font color = "ED682D" > <h4> <center> Διακρίσεις </center> </h4> </font>
+<br> <br>
+Απόδειξη της εστίασης του ΟΠΑ στην αριστεία αποτελούν οι εξής διακρίσεις στην Διεθνείς Λίστες Κατάταξης:<br> <br>
+  1. Η διεθνής λίστα κατάταξης QS κατατάσσει το ΟΠΑ στην 273η θέση παγκοσμίως, στο αντικείμενο των Κοινωνικών Επιστημών γα το 2017 <br>
+  2. Η διεθνής λίστα κατάταξης  QS κατατάσσει το ΟΠΑ σε υψηλές θέσεις παγκοσμίως, στα κάτωθι επιστημονικά πεδία, για το 2017 : <br> <br> <br>
+  <table border="2"   background= "1.png" align= center  width= 500>
+  <tr>
+  <td>Accounting and Finance: </td>
+  <td>151-200</td>
+  <tr>
+  <td> Economics and Econometrics: </td>
+  <td> 151-200</td>
+  <tr>
+  <td> Busines&Management Studies:</td>
+  <td> 151-200 </td>
+  <tr>
+  <td> Computer Science and Information Systems: </td>
+  <td> 351-400 </td>
+  </tr>
+  </table>
+  <br> <br> 
+  3.Η διεθνής λίστα κατάταξης US News κατατάσσει το ΟΠΑ στην 195η θέση παγκοσμίως στο επιστημονικό πεδίο <<Economics and Business>> για το 2017
+  4.Η διεθνής λίστα κατάταξης ARWU κατατάσσει το ΟΠΑ σε υψηλές θέσεις παγκοσμίως, στα κάτωθι επιστημονικά πεδία για το 2017 :
+  <br> <br>
+  <table border="3"   background= "1.png" align= center  width= 500>
+  <tr>
+  <td> Economics: </td>
+  <td> 151-200 </td>
+  <tr>
+  <td> Finance:</td>
+  <td> 151-200</td>
+  </tr>
+  </table>
+  <br>
+  <br>
+  5.Το ΟΠΑ κατατάσσεται στην κατηγορία "Superior" μεταξύ των κορυφαίων 250 Business Schools παγκοσμίως σύμφωνα με την διεθνής λίστα κατάταξης QS Global Business Schools για  το 2016/17
+  <br> <br> <br>
+  <font color = "ED682D" > <H2 id="c"> Οργανωτική Δομή</H2> </font>
+  Το Οικονομικό Πανεπιστήμιο Αθηνών, ως Ανώτατο Εκπαιδευτικό Ίδρυμα, είναι Νομικό Πρόσωπο Δημοσίου Δικαίου με πλήρη αυτοδιοίκηση επιχορηγούμενο και εποπτευόμενο από το Υπουργείο Παιδείας Έρευνας και Θρησκευμάτων.Η οργανωτική δομή του περιλαμβάνει τα ακόλουθα όργανα:
+  <br> <br> <br>
+  <font color = "ED682D" > <h4> <center> Πρυτανικές Αρχές </center> </h4> </font>
+  <table  style="border:none;" align= center  width= 1000>
+  <tr>
+  <td> <IMG SRC="γιακουμακης.jpg" hspace=30 vspace=10 width =300 Height=300 align=center> </td>
+  <td> <IMG SRC="μπουραντωνης.jpg" hspace=30 vspace=10 width =300 Height=300 align=center> </td>
+  <td> <IMG SRC="γκριτζαης.jpg" hspace=30 vspace=10 width =300 height=300 align=center> </td>
+  <td> <IMG SRC="ξυλωμενος.jpg" hspace=30 vspace=10 width =300 Height=300 align=center> </td>
+  <tr>
+  <td style="font-size:30px"><center> Πρύτανης <br> Καθηγητής <br> Εμμανουήλ Γιακουμάκης <center></td>
+  <td style="font-size:30px"><center> ΑναπληρωτήςΠρύτανη <br>  Ακαδημαϊκών Υποθέσεων <br> και Προσωπικού <br> Καθηγητής <br>  Δημήτριος Μπουραντώνης <br> <center></td>
+  <td style="font-size:30px"><center>Αναπληρωτής Πρύτανη <br> Έρευνας <br> Καθηγητής<br> Δημήτριος Γκριτζάλης <center></td>
+  <td style="font-size:30px"><center>Αναπληρωτής Πρύτανη  <br> Οικονομικού Προγραμματισμού<br>και Ανάπτυης<br>Αναπληρωτής Καθηγητής<br>Γεώργιος Ξυλωμένος <center></td>
+  </tr>
+  </table>
+  <br> <br> <br>
+  <font color = "ED682D" > <h4> <center> Σύγκλητος</center> </h4> </font>
+  <br>
+  Η Σύγκλητος αποτελεί το ανώτερο όργανο λήψης αποφάσεων του Πανεπιστημίου. Αποτελείται απο : <br>
+  α)τον Πρύτανη <br>
+  β)τους Αναπληρωτές Πρύτανη <br>
+  γ)τους Κοσμήτορες των Σχολών <br>
+  δ)τους Προέδρους των Τμημάτων <br>
+  ε)τους εκπροσώπους των φοιτητών σε ποσοστό 10% του συνόλου των μελών της Συγκλήτου των περιπτώσεων ά εώς ΄δ <br>
+  στ)τρεις εκπροσώπους, έναν ανά κατηγορία από τα μέλη Ε.Ε.Π,Ε.ΔΙ.Π ΚΑΙ Ε.Τ.Ε.Π. του Ιδρύματος και <br>
+  ζ)έναν εκπρόσωπο των διοικητικών υπαλλήλων του Ιδρύματος.
+  <br> <br> <br>
+  <font color = "ED682D" > <h4> <center> Σχολές και Τμήματα</center> </h4> </font>
+  <br>
+  <br>
+  Το Ίδρυμα αποτελείται από τρεις Σχολές: <br>
+  <b>Σχολή Οικονομικών Επιστημών</b>,η οποία εποπτεύει και συντονίζει τη λειτουργία ττων Τμημάτων Διεθνών και Ευρωπαϊκών Οικονομικών Σπουδών και Οικονομικής Επιστήμης.<br>
+  <b>Σχολή Διοίκησης Επιχειρήσεων</b>,η οποία εποπτεύει και συντονίζει τη λειτουργία των Τμημάτων Διοικητικής Επιστήμης και Τεχνολογίας, Οργάνωσης και Διοίκησης Επιχειρήσεων, Λογιστικής και Χρηματοοικονομικής και Μάρκετινγκ και Επικοινωνίας. <br>
+  <b>Σχολή Επιστημών και Τεχνολογίας της Πληροφορίας </b>,η οποία εποπτεύει και συντονίζει τη λειτουργία των Τμημάτων Πληροφορικής και Στατιστικής.<br>
+  Κάθε Σχολή διοικείται από τον Κοσμήτορα της Σχολής, την Κοσμητεία και τη Γενική Συνέλευση της Σχολή, ενώ κάθε Τμήμα διοικείται από τον Πρόεδρο και τη Γενική Συνέλευη του Τμήματος.
+  <br> <br> <br>
+  <font color = "ED682D" > <H2 id="d">Ιστορική Αναδρομή</H2> </font> <br> <br> <br>
+  <b> Οι βασική σταθμοί του Ιδρύματος </b>
+  
+  <ul>
+  <li><font color = "ED682D" >1903:</font>Δωρεά Γρηγορίου Μαρασλή για την δημιουργία Μαράσλειου Εμπορικής Σχολής Αθηνών. </li>
+  <li><font color = "ED682D" >1914:</font>Η Σχολή μετονομάζεται σε Εμπορική Ακαδημία.</li>
+<li><font color = "ED682D" >1920:</font>Ο Ελευθέριος Βενιζέλος καλεί τον Γεώργιο Παγιάρ (George Paillard),
+καθηγητή του Πανεπιστημίου της Λωζάνης, με σκοπό την ίδρυση της Ανώτατης Σχολής Εμπορικών Σπουδών,
+η οποία στεγάζεται αρχικά σε κτήριο στην πλατεία Κάνιγγος  και στην συνέχεια κοντά στην σημερινή του τοποθεσία.
+<br>Ιδρύεται η Βιβλιοθήκη με το αναγνωστήριό της ως παράρτημα της Σχολής. 
+Αποτελεί την αρχαιότερη οικονομική ακαδημαϊκή βιβλιοθήκη στην Ελλάδα. </li>
+<li><font color = "ED682D" >1926:</font>Η Ανώτατη Σχολή Εμπορικών Σπουδών μετονομάζεται σε Ανώτατη Σχολή Οικονομικών και Εμπορικών Επιστημών(ΑΣΟΕΕ) </li>
+<li><font color = "ED682D" >1928:</font>Ιδρύεται ο Σύνδεσμος Διπλωματούχων (Πτυχιούχων) ΑΣΟΕΕ, ο αρχαιότερος σύνδεσμος Οικονομικής Σχολής. </li>
+<li><font color = "ED682D" >1935:</font>Εγκαινιάζεται το νέο κτήριο της σχολής στην οδό Πατησίων 76. </li>
+<li><font color = "ED682D" >1939:</font>Η ΑΣΟΕΕ αναγνωρίζεται ως ισότιμη με το Πανεπιστήμιο Αθηνών(ΕΚΠΑ) και το Εθνικό Μετσόβιο Πολυτεχνείο (ΕΜΠ). </li>
+<li><font color = "ED682D" >1956:</font>Ο αριθμός των φοιτητών πλησιάζει τους 4.000 και εξαιτίας αυτού η Σχολή προβαίνει 
+στην αγορά ακινήτων, γειτονικών στο αρχικό συγκρότημα. 
+Παράλληλα, γίνονται προσθήκες στο κύριο κτήριο. </li>
+<li><font color = "ED682D" >1961:</font>Ιδρύεται το «Ινστιτούτο Επιμορφώσεως εις την Διοικητικήν των 
+Επιχειρήσεων», όπου γίνονται δεκτοί πτυχιούχοι της ΑΣΟΕΕ και άλλων 
+ΑΕΙ της  ημεδαπής και της αλλοδαπής, με στόχο την εξειδίκευση ανωτάτων 
+στελεχών στη Διοίκηση των Επιχειρήσεων. </li>
+<li><font color = "ED682D" >1970:</font>Το Εμπορικό Τμήμα μετονομάζεται σε Τμήμα Διοίκησης Επιχειρήσεων </li>
+<li><font color = "ED682D" >1978:</font>Οργανώνονται για πρώτη φορά στη χώρα μεταπτυχιακές σπουδές από 
+το Τμήμα Οικονομικής Επιστήμης που οδηγούν στη λήψη 
+Μεταπτυχιακού Διπλώματος Ειδίκευσης (διάρκειας δύο ετών) και 
+Διδακτορικού Διπλώματος(διάρκειας, επίσης, δύο ετών). </li>
+<li><font color = "ED682D" >1983:</font>Στο πλαίσιο ενεργοποίησης του Ειδικού Λογαριασμού Ερευνών,
+ιδρύεται το Κέντρο Οικονομικών Ερευνών με σκοπό την 
+ανάπτυξη της έρευνας και την διάδοση της επιστημονικής γνώσης. </li>
+<li><font color = "ED682D" >1984:</font> Η ΑΣΟΕΕ διαχωρίζεται σε τρία ανεξάρτητα Τμήματα: το Τμήμα 
+Οικονομικών Επιστημών, το Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων και 
+το Τμήμα Στατιστικής και Πληροφορικής. </li>
+<li><font color = "ED682D" >1985:</font>Ιδρύεται το Πρόγραμμα Μεταπτυχιακών Σπουδών (ΠΜΣ) στη 
+Διοίκηση Επιχειρήσεων του Τμήματος Οργάνωσης και Διοίκησης Επιχειρήσεων. </li>
+<li><font color = "ED682D" >1987:</font>Εγκαινιάζεται το νέο κτήριο της οδού Δεριγνύ 3-5. </li>
+<li><font color = "ED682D" >1989:</font>Η ΑΣΟΕΕ μετονομάζεται σε Οικονομικό Πανεπιστήμιο Αθηνών 
+και αποκτά συνολικά τα εξής Τμήματα: <br> Τμήμα Οικονομικής Επιστήμης,
+<br> Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων, <br>Τμήμα Εφαρμοσμένης Πληροφορικής,
+<br> Τμήμα Στατιστικής, <br> Τμήμα Διεθνών και Ευρωπαϊκών  Οικονομικών Σπουδών 
+και <br> Τμήμα Διοικητικής των Επιχειρήσεων και Μάρκετινγκ. </li>
+<li><font color = "ED682D" >1992:</font>Λειτουργεί για πρώτη φορά το Γραφείο Απασχόλησης Φοιτητών και 
+Σταδιοδρομίας Αποφοίτων, το οποίο στη συνέχεια μετονομάζεται σε Γραφείο Διασύνδεσης.
+<br> Το Τμήμα Διοικητικής των Επιχειρήσεων και
+ Μάρκετινγκ μετονομάζεται σε Τμήμα Επιχειρησιακής Έρευνας και Μάρκετινγκ.</li>
+ <li> <font color = "ED682D" >1995:</font>Εγκαινιάζεται η νέα πτέρυγα του Πανεπιστημίου επί της οδού Αντωνιάδου.</li>
+ <li><font color = "ED682D" >1999: </font>Λειτουργεί για πρώτη φορά το Τμήμα Λογιστικής και Χρηματοοικονομικής. </li>
+ <li><font color = "ED682D" >2000:</font>Λειτουργεί για πρώτη φορά το Τμήμα Διοικητικής Επιστήμης και Τεχνολογίας.
+ <br> Θεσπίζεται, Με απόφαση Συγκλήτου, το Κέντρο Συνεχιζόμενης Εκπαίδευσης και Επαγγελματικής Κατάρτισης (ΚΕΚ ΟΠΑ).
+<br> Ολοκληρώνεται η ανέγερση του Κέντρου Μεταπτυχιακών Σπουδών στις οδούς Ευελπίδων και Λευκάδος. </li>
+<li> <font color = "ED682D" >2002:</font>Το Τμήμα Επιχειρησιακής Έρευνας και Μάρκετινγκ μετονομάζεται σε Τμήμα Μάρκετινγκ και Επικοινωνίας. </li>
+<li><font color = "ED682D" >2009:</font>Ξεκινά τη λειτουργία του στο ΟΠΑ το μοναδικό στην Ελλάδα 
+Ινστιτούτο Κομφούκιος Αθηνών με το University of International Business 
+and Economics (UIBE) του Πεκίνου και το Office of Chinese
+Language Council International. </li>
+<li><font color = "ED682D" >2013:</font> Συγκροτούνται οι Σχολές Οικονομικών Επιστημών, Διοίκησης Επιχειρήσεων
+και Επιστημών και Τεχνολογίας της Πληροφορίας </li>
+</ul>
+<A 
+href="https://www.aueb.gr/el/content/%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE-%CE%B1%CE%BD%CE%B1%CE%B4%CF%81%CE%BF%CE%BC%CE%AE" style="color:ED682D"> 
+ Περισσότερες Πληροφορίες: </a> 
+ </body>
+ </html>
